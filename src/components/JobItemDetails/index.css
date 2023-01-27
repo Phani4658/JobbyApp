@@ -1,0 +1,110 @@
+.jobs-failure-view {
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  height: 100vh;
+}
+.job-details-loader-container {
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .failure-view-img {
+    width: 30%;
+  }
+}
+
+.job-details-page {
+  background-color: #121212;
+  min-height: 100vh;
+  padding: 1em;
+  color: #fff;
+}
+
+.job-details-card {
+  background-color: #272727;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+.description-company-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company-visit-link {
+  text-decoration: none;
+  color: #6366f1;
+  font-size: 1em;
+  cursor: pointer;
+}
+.visit-link {
+  text-decoration: none;
+  color: #6366f1;
+  margin-right: 0.4em;
+}
+.skills-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  display: flex;
+  align-items: center;
+  margin: 0.3em;
+}
+.skill-image {
+  margin-right: 10px;
+  width: 40px;
+}
+.skill-card {
+  width: 45%;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-card {
+    width: 30%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+  }
+  .description-heading {
+    font-size: 1.5em;
+  }
+  .skill-name {
+    font-size: 1.4em;
+  }
+}
+
+.skills-heading {
+  font-size: 1.5em;
+}
+
+.company-description {
+  font-size: 1.2em;
+}
+
+.company-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-card {
+    display: flex;
+  }
+  .company-image {
+    margin-left: 1em;
+  }
+}
+
+.similar-jobs-heading {
+  margin-left: 1em;
+}
